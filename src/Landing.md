@@ -648,53 +648,6 @@ Think like an engineer responsible for business-critical data systems.
 
 ---
 
-## Suggested Learning Timeline
-
-This is a realistic roadmap for self-study.
-
-### Month 1–2
-
-- Python fundamentals
-- SQL basics and intermediate SQL
-- Git and Docker basics
-- PostgreSQL
-
-### Month 3–4
-
-- data modeling
-- APIs to database pipelines
-- file formats and storage concepts
-- dbt basics
-
-### Month 5–6
-
-- Airflow
-- batch pipelines
-- testing and documentation
-- one strong portfolio project
-
-### Month 7–8
-
-- Spark / PySpark
-- partitioning and scaling concepts
-- cloud platform basics
-- warehouse-focused project
-
-### Month 9–10
-
-- Kafka / streaming fundamentals
-- data quality and observability
-- CI/CD for data projects
-- second advanced project
-
-### Month 11–12
-
-- production patterns
-- interview preparation
-- resume and portfolio refinement
-- mock system design and case studies
-
-> Fast learners can compress this into 4–6 months. Most people retain more by building along the way over 8–12 months.
 
 ---
 
@@ -932,12 +885,12 @@ Prepare for questions like:
 
 ### Learn by Official Documentation
 
-- Python documentation
-- PostgreSQL documentation
-- Apache Airflow documentation
-- dbt documentation
-- Apache Spark documentation
-- Apache Kafka documentation
+- [Python documentation](https://docs.python.org/3/)
+- [PostgreSQL documentation](https://www.postgresql.org/docs/)
+- [Apache Airflow documentation](https://airflow.apache.org/docs/)
+- [dbt documentation](https://docs.getdbt.com/)
+- [Apache Spark documentation](https://spark.apache.org/documentation.html)
+- [Apache Kafka documentation](https://kafka.apache.org/documentation/)
 - your cloud provider’s official data engineering guides
 
 ### Practice Platforms
@@ -998,13 +951,3 @@ If you stay consistent and project-focused, this roadmap can take you from begin
 
 ---
 
-## Optional Next Step
-
-You can extend this README by adding:
-
-- a visual roadmap diagram
-- checkboxes for progress tracking
-- a 90-day action plan
-- interview question banks
-- cloud-specific versions (AWS / GCP / Azure)
-- a version tailored for beginners, analysts, or software engineers
