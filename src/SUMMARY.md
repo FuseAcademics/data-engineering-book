@@ -19,7 +19,7 @@
 # ⚙️ Big Data & Processing
 * [Introduction to PySpark](./PySpark/README.md)
 * [Databricks](./engineering/databricks.md)
-* [Apache Kafka](./kafka/README.md)
+* [Apache Kafka](./Kafka/README.md)
 
 # ❄️ Data Warehousing
 * [Snowflake](./warehousing/snowflake.md)
