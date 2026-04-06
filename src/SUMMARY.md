@@ -12,6 +12,9 @@
 # 📊 SQL
 * [Introduction to SQL](./SQL/README.md)
 
+# 💎 Analytics Engineering
+* [Introduction to dbt](./dbt/README.md)
+
 # ☁️ Cloud Infrastructure
 * [AWS](./cloud/aws.md)
 * [Azure](./cloud/azure.md)
@@ -19,7 +22,7 @@
 # ⚙️ Big Data & Processing
 * [Introduction to PySpark](./PySpark/README.md)
 * [Databricks](./engineering/databricks.md)
-* [Apache Kafka](./Kafka/README.md)
+* [Apache Kafka](./kafka/README.md)
 
 # ❄️ Data Warehousing
 * [Snowflake](./warehousing/snowflake.md)

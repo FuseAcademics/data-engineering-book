@@ -1,6 +1,15 @@
 # Introduction to dbt (data build tool)
 
-dbt is the "T" (Transform) in ELT. It allows Data Engineers and Analysts to write transformations in simple SQL while dbt handles the complex work of dependency management, version control, and data testing.
+dbt is the "T" (Transform) in ELT. It allows Data Engineers and Analysts to write transformations in simple SQL while dbt handles the complex work of dependency management, version control, and data testing.dbt is a development framework that combines SQL with software engineering best practices (version control, testing, CI/CD) to build data transformations.
+
+## Core Concepts
+* **T in ELT:** dbt does not move data; it transforms data already loaded into your warehouse (Snowflake, BigQuery, etc.).
+* **SQL-based:** If you know `SELECT` statements, you can use dbt.
+* **Modular:** It turns monolithic scripts into reusable models.
+
+## Official Resources
+* [dbt Documentation](https://docs.getdbt.com/)
+* [dbt Fundamentals (Free Course)](https://courses.getdbt.com/courses/dbt-fundamentals)
 
 ## 🔗 Learning Resources
 * **dbt Learn:** [dbt Fundamentals](https://courses.getdbt.com/courses/fundamentals) - *The gold standard course for learning the modern data stack.*
