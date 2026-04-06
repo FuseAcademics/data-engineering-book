@@ -1,5 +1,4 @@
 # Apache Airflow
-# Apache Airflow
 
 Orchestration is the "glue" that holds data pipelines together. Apache Airflow allows you to programmatically author, schedule, and monitor workflows.
 

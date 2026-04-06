@@ -15,10 +15,6 @@
 # 💎 Analytics Engineering
 * [Introduction to dbt](./dbt/README.md)
 
-# ☁️ Cloud Infrastructure
-* [AWS](./cloud/aws.md)
-* [Azure](./cloud/azure.md)
-
 # ⚙️ Big Data & Processing
 * [Introduction to PySpark](./PySpark/README.md)
 * [Databricks](./engineering/databricks.md)
@@ -29,3 +25,7 @@
 
 # 🚀 Orchestration
 * [Apache Airflow](./Airflow/README.md)
+
+# ☁️ Cloud Infrastructure
+* [AWS](./cloud/aws.md)
+* [Azure](./cloud/azure.md)
