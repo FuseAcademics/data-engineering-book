@@ -8,8 +8,25 @@ Pandas is a fast, powerful, and flexible open-source data analysis and manipulat
 * **Kaggle Course:** [Pandas Tutorial](https://www.kaggle.com/learn/pandas) - *Interactive and specifically focused on data manipulation.*
 * **Visualization:** [Pandas Plotting Guide](https://pandas.pydata.org/docs/user_guide/visualization.html)
 
-## 🧪 Practice Tasks
-1. **DataFrame Creation:** Create a Pandas DataFrame from a dictionary of lists (e.g., product names, prices, and stock levels).
-2. **Data Cleaning:** Load a CSV with "dirty" data (missing values or wrong formats). Use `.fillna()` to handle nulls and `.astype()` to correct data types.
-3. **The Aggregator:** Load a dataset of sales records. Group by 'Category' and calculate the total and average revenue for each category.
-4. **Merging Data:** Take two DataFrames (e.g., `Orders` and `Customers`) and perform an inner join on the `customer_id` column.
+## 📝 Practice Tasks (The Basics)
+
+### 1. The Schema Validator
+**Goal:** Ensure incoming data matches your requirements.
+* **Scenario:** You have a CSV of "Sales" data. You need to ensure no prices are negative and all dates are valid.
+* **Requirements:**
+    * Load `sales.csv`.
+    * Use `df.info()` to check data types.
+    * Use boolean indexing to find rows where `price < 0` and drop them.
+    * Convert the `transaction_date` column to `datetime64[ns]`.
+    * **Output:** A report of how many rows were deleted during cleaning.
+
+### 2. The Aggregator (Group-By)
+**Goal:** Create a summary report from raw events.
+* **Scenario:** A CSV contains `store_id`, `product_category`, and `revenue`.
+* **Requirements:**
+    * Group the data by `store_id`.
+    * Calculate the **Total Revenue** and **Average Revenue** per store.
+    * Sort the results so the highest-earning store is at the top.
+    * **Output:** Save the summary to `store_performance.csv`.
+
+---

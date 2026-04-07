@@ -7,7 +7,22 @@ PySpark allows you to use the power of Apache Spark with Python, enabling large-
 * **PySpark Quickstart:** [Spark Official Guide](https://spark.apache.org/docs/latest/api/python/getting_started/index.html)
 * **Free Course:** [SparkByExamples](https://sparkbyexamples.com/pyspark-tutorial/) - *An excellent blog-style reference for common PySpark functions.*
 
-## 🧪 Practice Tasks
-1. **DataFrame Basics:** Load a CSV file into a PySpark DataFrame and display its schema.
-2. **Column Transformation:** Create a new column called `total_price` by multiplying `quantity` and `unit_price` columns, then filter for rows where `total_price > 1000`.
-3. **PySpark SQL:** Register a DataFrame as a temporary view and run a standard SQL query against it using `spark.sql()`.
+# ⚙️ PySpark Practice Tasks: Big Data Processing
+
+When data grows to Terabytes, we move from Pandas to Spark. Note: Spark uses **Lazy Evaluation**.
+
+### Task 1: Schema Enforcement
+Instead of using `inferSchema=True`, manually define a `StructType` schema for the grocery data prepared in SQL practice task.
+
+### Task 2: Distributed Transformations
+Using the Spark DataFrame API:
+1. Filter rows where `quantity` is less than 1 (Data Quality check).
+2. Add a column `taxed_price` which is `price * 1.15`.
+3. Rename the column `item_name` to `product_description`.
+
+### Task 3: Wide Transformations (Shuffle)
+Perform a `groupBy` on the `category` column and calculate the sum of `quantity`. 
+* **Discussion:** Explain why `groupBy` is considered a "Wide Transformation" compared to `filter`.
+
+### Task 4: Optimization
+Use the `.cache()` method on a DataFrame. In what scenario would a Data Engineer choose to cache a dataset?

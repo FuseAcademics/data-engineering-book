@@ -5,25 +5,23 @@ These tasks are designed to build the foundational logic required for Data Engin
 ---
 
 ## 🛠️ Data Engineering Prep Tasks
+## 📝 Practice Tasks (Standard Library)
 
-### 1. Basic Logic: Temperature Converter
-**Goal:** Practice basic arithmetic and list manipulation.
-* **Task:** Write a script that takes a list of temperatures in Celsius and converts them to Fahrenheit.
-* **Formula:** $F = (C \times 9/5) + 32$
-* **Bonus:** Round the resulting temperatures to two decimal places.
+### 1. The CSV to JSON Converter
+**Goal:** Master the `csv` and `json` modules.
+* **Scenario:** A legacy system exports data in CSV, but your modern API only accepts JSON.
+* **Requirements:**
+    * Read a file `users.csv` without using external libraries.
+    * Convert each row into a Dictionary.
+    * Handle "dirty" data: if a numeric field contains text, default it to `0`.
+    * **Output:** A beautifully formatted `users.json` file.
 
-### 2. Control Flow: The "DE" FizzBuzz
-**Goal:** Master conditional logic and loops.
-* **Task:** Create a program that iterates through numbers 1 to 50. 
-    * If the number is a multiple of **3**, print `"Data"`.
-    * If the number is a multiple of **5**, print `"Engineering"`.
-    * If the number is a multiple of **both**, print `"Data Engineering"`.
-    * Otherwise, just print the number.
+### 2. The Memory-Efficient Log Scanner
+**Goal:** Use **Generators** to handle "Big Data" on a small machine.
+* **Scenario:** You have a 5GB log file, but your computer only has 4GB of RAM.
+* **Requirements:**
+    * Use a generator function (`yield`) to read the file line-by-line.
+    * Count occurrences of keywords like `ERROR`, `WARNING`, and `INFO`.
+    * **Output:** A summary dictionary: `{'ERROR': 450, 'WARNING': 120, 'INFO': 2000}`.
 
-### 3. File I/O: Word Frequency Counter (DE Focus)
-**Goal:** Practice reading and writing different data formats.
-* **Task:** Write a script that:
-    1. Reads a `.txt` file containing several paragraphs of text.
-    2. Counts the frequency of each word (case-insensitive).
-    3. Saves the final count as a dictionary into a `.json` file.
-* **Why it matters:** Data Engineers constantly move data between flat files and structured JSON formats.
+---
