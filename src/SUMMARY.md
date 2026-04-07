@@ -29,3 +29,5 @@
 # ☁️ Cloud Infrastructure
 * [AWS](./cloud/aws.md)
 * [Azure](./cloud/azure.md)
+* [GCP](./cloud/gcp.md)
+

@@ -779,31 +779,6 @@ Below is a practical progression, not a mandatory list.
 
 ---
 
-## Daily / Weekly Study Plan
-
-### Daily (1–2 Hours)
-
-- 30 minutes SQL practice
-- 30 minutes Python or pipeline coding
-- 20 minutes reading docs or architecture concepts
-- 20 minutes improving a project or writing notes
-
-### Weekly
-
-- 1 day focused on SQL
-- 1 day focused on Python
-- 1 day focused on warehouse/data modeling
-- 1 day focused on orchestration/cloud tools
-- 1 day focused on project building
-- 1 day for review and debugging
-- 1 light day for reading/blogs/videos/rest
-
-### Golden Rule
-
-Spend at least **60% of your time building** and at most **40% consuming tutorials**.
-
----
-
 ## Portfolio Checklist
 
 Your GitHub portfolio should show more than notebooks.
