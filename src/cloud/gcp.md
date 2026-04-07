@@ -4,7 +4,7 @@ GCP is a powerful and rapidly growing cloud platform by Google, offering scalabl
 
 ---
 
-##  Learning Resources
+## 🔗 Learning Resources
 * **Official Training:** [Google Cloud Digital Leader Training](https://cloud.google.com/training/digitalleader)
 * **Storage Deep-Dive:** [Cloud Storage Documentation](https://cloud.google.com/storage/docs)
 * **Data Engineering Path:** [Google Cloud Skills Boost - Data Engineering](https://www.cloudskillsboost.google/paths/16)
@@ -12,7 +12,7 @@ GCP is a powerful and rapidly growing cloud platform by Google, offering scalabl
 
 ---
 
-##  Key GCP Services for Data Engineering
+## ⚙️ Key GCP Services for Data Engineering
 
 - **Cloud Storage** → Data lake storage for raw and processed data  
 - **BigQuery** → Serverless data warehouse for analytics  
@@ -23,7 +23,7 @@ GCP is a powerful and rapidly growing cloud platform by Google, offering scalabl
 
 ---
 
-##  Practice Tasks
+## 🧪 Practice Tasks
 
 ### 1. **The Bucket Builder**
 Create a Cloud Storage bucket, upload a `.csv` file, and configure IAM permissions to allow read-only access.
@@ -42,7 +42,7 @@ Create a service account with least privilege and use it to access BigQuery or C
 
 ---
 
-##  Mini Project: Build a Data Pipeline in GCP
+## 🚀 Mini Project: Build a Data Pipeline in GCP
 
 ### Objective:
 Build a simple batch data pipeline from Cloud Storage → BigQuery.
